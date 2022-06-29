@@ -23,6 +23,22 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
+ <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name> Releases Nexus Repository</name>
+	      <url>http://52.88.201.236:8081/repository/simplejavamavenprojectreleaserepo/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Snapshot Nexus Repository </name>
+	      <url>http://52.88.201.236:8081/repository/simplejavamavenprojectreleaserepo/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
+  
   <build>
     <pluginManagement>
       <plugins>
