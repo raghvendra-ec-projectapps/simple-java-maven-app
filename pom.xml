@@ -15,9 +15,14 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
   <properties>
+    <sonar.host.url>http://35.161.223.228:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>admin</sonar.password> -->  
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
   <build>
     <pluginManagement>
       <plugins>
